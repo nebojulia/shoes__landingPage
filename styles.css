@@ -14,3 +14,33 @@ html, body {
     background: #CB493E;
     width: 100%;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 70px;
+}
+.header__logo{
+    height: 30px;
+    width: 198px;
+}
+.logo {
+    width: 100%;
+    height: auto;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.header__burger {
+    height: 20px;
+    width: 30px;
+}
+.header__cart {
+    height: 30px;
+    width: 30px;
+    margin-left: 28px;
+}
+.main__img {
+    width: 100%;
+    height: auto;
+}
