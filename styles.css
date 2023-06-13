@@ -13,6 +13,7 @@ html, body {
 .page {
     background: #CB493E;
     width: 100%;
+    font-family: 'Teko', sans-serif;
 }
 .header {
     display: flex;
@@ -40,7 +41,48 @@ html, body {
     width: 30px;
     margin-left: 28px;
 }
+.main__content {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.main__text {
+    position: absolute;
+    z-index: 1;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.main__title {
+    font-size: 546px;
+    opacity: 0.1;
+    text-transform: uppercase;
+    font-weight: 700;
+    min-width: 1550px;
+    line-height: 0.9;
+}
+.main__subtitle {
+    font-size: 70px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    align-self: flex-end;
+    letter-spacing: 0.14em;
+}
+.main__description {
+    font-size: 42px;
+    font-weight: 400;
+    color: #fff;
+    max-width: 480px;
+    line-height: 1.1;
+}
 .main__img {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+}
+.shoes-img {
     width: 100%;
     height: auto;
+    max-width: 1393px;
 }
