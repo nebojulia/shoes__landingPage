@@ -41,24 +41,28 @@ html, body {
     width: 30px;
     margin-left: 28px;
 }
+.main {
+    display: grid;
+}
 .main__content {
     display: flex;
-    justify-content: center;
     position: relative;
+    justify-content: center;
+    align-items: center;
 }
 .main__text {
     position: absolute;
     z-index: 1;
-    top: 160px;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 1550px;
 }
 .main__title {
     font-size: 546px;
     opacity: 0.1;
     text-transform: uppercase;
     font-weight: 700;
-    min-width: 1550px;
     line-height: 0.9;
 }
 .main__subtitle {
